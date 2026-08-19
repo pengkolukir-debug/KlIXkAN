@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Klixkan</string>
+    <string name="editor_title">Editor Preset</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="copyright_footer">© proffesor2026</string>
+    <string name="accessibility_service_description">Klixkan membutuhkan izin Aksesibilitas untuk mensimulasikan ketukan, tekan-tahan, gulir layar, dan pengisian teks otomatis sesuai titik yang Anda buat sendiri.</string>
+
+    <string name="grant_accessibility">Aktifkan Layanan Aksesibilitas</string>
+    <string name="grant_overlay">Izinkan Tampil di Atas Aplikasi Lain</string>
+
+    <string name="btn_add_preset">Preset Baru</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_delete">Hapus</string>
+
+    <string name="point_type_tap">Klik Sekali</string>
+    <string name="point_type_long_press">Tekan Tahan</string>
+    <string name="point_type_swipe">Gulir</string>
+    <string name="point_type_text">Bot Ketik Acak</string>
+
+    <string name="label_delay_next">Jeda ke titik berikutnya</string>
+    <string name="label_press_duration">Durasi tekan</string>
+    <string name="label_swipe_duration">Durasi gulir</string>
+    <string name="unit_ms">md</string>
+    <string name="unit_sec">detik</string>
+    <string name="unit_minute">menit</string>
+    <string name="unit_hour">jam</string>
+
+    <string name="label_repeat_count">Jumlah pengulangan (0 = tanpa batas)</string>
+    <string name="label_repeat_duration">Durasi maksimal pengulangan (0 = tanpa batas)</string>
+
+    <string name="label_point_size">Ukuran titik klik</string>
+    <string name="label_point_opacity">Transparansi titik klik</string>
+    <string name="label_menu_size">Ukuran menu melayang</string>
+    <string name="label_menu_opacity">Transparansi menu melayang</string>
+
+    <string name="preset_settings_title">Pengaturan Preset</string>
+    <string name="label_preset_name">Nama preset</string>
+    <string name="btn_save_preset">Simpan Preset</string>
+    <string name="btn_new_preset">+ Preset Baru</string>
+    <string name="saved_presets_title">Preset Tersimpan</string>
+    <string name="toast_need_accessibility">Aktifkan dulu Layanan Aksesibilitas Klixkan agar bot bisa berjalan</string>
+    <string name="toast_need_overlay">Izinkan dulu \"Tampil di atas aplikasi lain\" untuk Klixkan</string>
+    <string name="toast_overlay_failed">Gagal menampilkan kontroler melayang. Cek izin overlay di pengaturan sistem.</string>
+    <string name="toast_preset_saved">Preset tersimpan</string>
+    <string name="btn_load">Pakai</string>
+
+    <string name="toast_locked_while_running">Hentikan bot dulu (Stop) sebelum memindah/mengedit/menghapus titik</string>
+    <string name="preset_detail_title">Detail &amp; Edit Preset</string>
+    <string name="label_points_list">Titik (seret ikon ≡ untuk ubah urutan)</string>
+    <string name="btn_save_changes">Simpan Perubahan</string>
+    <string name="empty_points_hint">Preset ini belum punya titik. Tambahkan lewat kontroler melayang (tombol Jalankan).</string>
+</resources>

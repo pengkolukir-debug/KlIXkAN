@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Mini-menu melayang: hanya ikon-ikon aksi, tanpa kotak/background,
+    tersusun vertikal berdekatan dengan logo utama.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageButton
+        android:id="@+id/btnStartStop"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_start"
+        android:contentDescription="@string/btn_start" />
+
+    <ImageButton
+        android:id="@+id/btnAddTap"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_add_tap"
+        android:contentDescription="@string/point_type_tap" />
+
+    <ImageButton
+        android:id="@+id/btnAddLongPress"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_add_long_press"
+        android:contentDescription="@string/point_type_long_press" />
+
+    <ImageButton
+        android:id="@+id/btnAddSwipe"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_add_swipe"
+        android:contentDescription="@string/point_type_swipe" />
+
+    <ImageButton
+        android:id="@+id/btnAddText"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_add_text"
+        android:contentDescription="@string/point_type_text" />
+
+    <ImageButton
+        android:id="@+id/btnDeleteMode"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/btn_delete" />
+
+    <ImageButton
+        android:id="@+id/btnPresetSettings"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_save"
+        android:contentDescription="@string/preset_settings_title" />
+
+    <ImageButton
+        android:id="@+id/btnSettings"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="@string/settings_title" />
+
+    <ImageButton
+        android:id="@+id/btnCloseOverlay"
+        style="@style/OverlayIconButton"
+        android:src="@drawable/ic_close"
+        android:contentDescription="@string/btn_cancel" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+-keep class com.cowalskiiw2026.autoklix.data.** { *; }
+-keep class com.cowalskiiw2026.autoklix.model.** { *; }

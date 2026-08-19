@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_rounded_surface"
+    android:layout_marginBottom="10dp"
+    android:padding="14dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPresetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/on_surface"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Preset Absen Harian" />
+
+        <TextView
+            android:id="@+id/tvPresetInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#99EDEFF7"
+            android:textSize="12sp"
+            tools:text="5 titik • ulang 3x • ketuk untuk jalankan &amp; edit" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnRunOverlay"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_start"
+        android:contentDescription="@string/btn_start" />
+
+    <ImageButton
+        android:id="@+id/btnViewDetail"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_list"
+        android:contentDescription="@string/preset_detail_title" />
+
+    <ImageButton
+        android:id="@+id/btnDeletePreset"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/btn_delete" />
+
+</LinearLayout>

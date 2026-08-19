@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF4F46E5</color>
+    <color name="primary_dark">#FF3730A3</color>
+    <color name="accent">#FF22D3EE</color>
+    <color name="background">#FF111318</color>
+    <color name="surface">#FF1B1E27</color>
+    <color name="on_surface">#FFEDEFF7</color>
+    <color name="danger">#FFEF4444</color>
+    <color name="success">#FF22C55E</color>
+    <color name="marker_tap">#FF4F46E5</color>
+    <color name="marker_long_press">#FFF59E0B</color>
+    <color name="marker_swipe">#FF22D3EE</color>
+    <color name="marker_text">#FF22C55E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
